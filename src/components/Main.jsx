@@ -8,7 +8,7 @@ class Main extends Component {
       <div className="main">
         <div>
           <Element name="about">
-            <h1>About Me</h1>
+            <h1 className="abouttext">About Me</h1>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet
             volutpat consequat mauris nunc congue nisi vitae suscipit. Ultrices
@@ -51,7 +51,7 @@ class Main extends Component {
           turpis tincidunt. Sit amet nisl purus in. Nisl tincidunt eget nullam
           non nisi est sit amet. Pretium nibh ipsum consequat nisl.
           <Element name="writing">
-            <h1>Things What I Have Written</h1>
+            <h1 className="workstext">Things What I Have Written</h1>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet
             volutpat consequat mauris nunc congue nisi vitae suscipit. Ultrices
@@ -136,7 +136,7 @@ class Main extends Component {
           turpis tincidunt. Sit amet nisl purus in. Nisl tincidunt eget nullam
           non nisi est sit amet. Pretium nibh ipsum consequat nisl.
           <Element name="contact">
-            <h1>Contact</h1>
+            <h1 className="contacttext">Contact</h1>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet
             volutpat consequat mauris nunc congue nisi vitae suscipit. Ultrices
