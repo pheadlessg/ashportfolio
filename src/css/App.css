@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  border: 1px solid red;
+  background: white;
+  width: 100vw;
+  height: 130px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.contactlink {
+  position: left;
+}
+
+.headertext {
+  text-align: center;
+  border: 1px solid blue;
+}
+
+.link {
+  border: 1px solid coral;
+}
+
+/* .main {
+  position: absolute;
+  top: 3em;
+} */
+
+.title {
+  padding-top: 10px;
+}
+
+.linkbar {
+  padding-top: 30px;
+}
