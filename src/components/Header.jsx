@@ -46,7 +46,7 @@ const Header = () => {
               className="link"
               to="contact"
               smooth={true}
-              offset={-30}
+              offset={-130}
               duration={500}
             >
               Contact

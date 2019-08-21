@@ -38,7 +38,7 @@
   padding-top: 30px;
 }
 
-.abouttext {
+.aboutheader {
   background-image: url('../img/cobbles.jpg');
   min-height: 100px;
   background-attachment: fixed;
@@ -47,7 +47,7 @@
   background-size: cover;
 }
 
-.workstext {
+.worksheader {
   background-image: url('../img/longbeach.jpg');
   min-height: 100px;
   background-attachment: fixed;
@@ -56,11 +56,23 @@
   background-size: cover;
 }
 
-.contacttext {
+.contactheader {
   background-image: url('../img/laptop.jpg');
   min-height: 100px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.abouttext {
+  height: 100vh;
+}
+
+.workstext {
+  height: 100vh;
+}
+
+.contacttext {
+  height: 100vh;
 }
