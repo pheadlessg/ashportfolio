@@ -67,7 +67,7 @@
 }
 
 .abouttext {
-  height: 100vh;
+  height: auto;
 }
 
 .workstext {
@@ -138,4 +138,23 @@
   font-size: 12px;
   font-family: 'Lexend Deca', sans-serif;
   text-decoration: none;
+}
+
+.footerlink:hover {
+  text-decoration: none;
+}
+
+.smlink {
+  padding: 5px;
+}
+
+.picture {
+  padding: 20px;
+  float: left;
+  width: 15vw;
+  height: auto;
+}
+
+.aboutbody {
+  padding: 20px;
 }

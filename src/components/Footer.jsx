@@ -12,13 +12,16 @@ const Footer = () => {
         <Row>
           <Col>
             <div>
-              <a href="https://www.linkedin.com/in/ashleylduffy/">
+              <a
+                className="smlink"
+                href="https://www.linkedin.com/in/ashleylduffy/"
+              >
                 <img src={linkedin} alt="LinkedIn" />
               </a>
-              <a href="https://www.instagram.com/ashgenie/">
+              <a className="smlink" href="https://www.instagram.com/ashgenie/">
                 <img src={instagram} alt="Instagram" />
               </a>
-              <a href="https://twitter.com/ashgenie">
+              <a className="smlink" href="https://twitter.com/ashgenie">
                 <img src={twitter} alt="Twitter" />
               </a>
             </div>
