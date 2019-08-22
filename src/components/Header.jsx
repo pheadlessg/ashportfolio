@@ -9,10 +9,10 @@ const Header = () => {
       <Container>
         <Row className="title">
           <Col>
-            <div className="headertext">Ashley Duffy</div>
+            <div className="headertext">ASH DUFFY</div>
           </Col>
           <Col>
-            <div className="headertext">Screenwriter</div>
+            <div className="headertext">SCREENWRITER</div>
           </Col>
         </Row>
 
@@ -22,7 +22,7 @@ const Header = () => {
               className="link"
               to="about"
               smooth={true}
-              offset={-130}
+              offset={-150}
               duration={500}
               isDynamic={true}
             >
@@ -35,7 +35,7 @@ const Header = () => {
               to="writing"
               smooth={true}
               isDynamic={true}
-              offset={-130}
+              offset={-100}
               duration={500}
             >
               Works
@@ -46,7 +46,7 @@ const Header = () => {
               className="link"
               to="contact"
               smooth={true}
-              offset={-130}
+              offset={-100}
               duration={500}
             >
               Contact
