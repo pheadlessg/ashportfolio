@@ -1,6 +1,5 @@
 import React from 'react';
 import { Element } from 'react-scroll';
-import pic from '../img/pic1.jpeg';
 
 const About = () => {
   return (
@@ -9,7 +8,6 @@ const About = () => {
         <div className="aboutheader">
           <span className="aboutheadertext">About Me</span>
         </div>
-        <img className="picture" src={pic} alt="" />
         <div className="aboutbody">
           <h2>Hi. I'm Ash. I write things.</h2>
           <br />

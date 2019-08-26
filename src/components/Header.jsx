@@ -15,7 +15,6 @@ const Header = () => {
             <div className="headertext">SCREENWRITER</div>
           </Col>
         </Row>
-
         <Row className="linkbar">
           <Col>
             <Link
@@ -35,7 +34,7 @@ const Header = () => {
               to="writing"
               smooth={true}
               isDynamic={true}
-              offset={-100}
+              offset={-150}
               duration={500}
             >
               Works
@@ -46,7 +45,7 @@ const Header = () => {
               className="link"
               to="contact"
               smooth={true}
-              offset={-100}
+              offset={-150}
               duration={500}
             >
               Contact

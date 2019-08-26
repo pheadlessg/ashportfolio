@@ -6,7 +6,7 @@
   background-color: rgba(179, 243, 179, 0.5);
   color: black;
   width: 100vw;
-  height: auto;
+  height: 150px;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -15,7 +15,6 @@
 .headertext {
   text-align: center;
   font-family: 'Lexend Deca', sans-serif;
-  font-size: 34px;
 }
 
 /* .link {
@@ -27,11 +26,16 @@
 }
 
 .title {
+  font-size: 34px;
+  display: flex;
+  flex-direction: column;
   padding-top: 10px;
+  padding-bottom: 12px;
 }
 
 .linkbar {
-  padding-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
   font-size: 20px;
   font-family: 'Lexend Deca', sans-serif;
 }
@@ -71,7 +75,7 @@
 }
 
 .workstext {
-  height: 100vh;
+  height: auto;
 }
 
 .contacttext {
@@ -157,5 +161,6 @@
 }
 
 .aboutbody {
+  font-size: 18px;
   padding: 20px;
 }
