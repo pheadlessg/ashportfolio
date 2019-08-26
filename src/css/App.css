@@ -124,7 +124,8 @@
 }
 
 .footer {
-  background-color: rgba(179, 243, 179, 0.5);
+  border: 1px black;
+  background-color: white;
   color: black;
   width: 100vw;
   height: auto;
@@ -135,7 +136,7 @@
 
 .footerlink {
   color: black;
-  font-size: 12px;
+  font-size: 10px;
   font-family: 'Lexend Deca', sans-serif;
   text-decoration: none;
 }
@@ -145,13 +146,13 @@
 }
 
 .smlink {
-  padding: 5px;
+  /* padding: 5px; */
 }
 
 .picture {
   padding: 20px;
   float: left;
-  width: 15vw;
+  width: 150px;
   height: auto;
 }
 

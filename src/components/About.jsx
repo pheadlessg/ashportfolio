@@ -11,7 +11,6 @@ const About = () => {
         </div>
         <img className="picture" src={pic} alt="" />
         <div className="aboutbody">
-          <h2>Hi. I'm Ash. I write for TV, Radio and Film.</h2>
           <h2>Hi. I'm Ash. I write things.</h2>
           <br />
           <p>
@@ -42,6 +41,10 @@ const About = () => {
             an enigmatic cult leader who gains control of a small town in the
             North of England - in the Works section of this site, along with
             other selections of my writing.
+          </p>
+          <p>
+            If you like my writing, have any questions or just want to get in
+            touch - please do so using the contact details on this site.
           </p>
         </div>
       </Element>
