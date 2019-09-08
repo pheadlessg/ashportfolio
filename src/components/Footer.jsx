@@ -11,18 +11,18 @@ const Footer = () => {
       <Container>
         <Row>
           <Col>
-            <div>
+            <div className="smlinks">
               <a
                 className="smlink"
                 href="https://www.linkedin.com/in/ashleylduffy/"
               >
-                <img src={linkedin} alt="LinkedIn" />
+                <img className="smimg" src={linkedin} alt="LinkedIn" />
               </a>
               <a className="smlink" href="https://www.instagram.com/ashgenie/">
-                <img src={instagram} alt="Instagram" />
+                <img className="smimg" src={instagram} alt="Instagram" />
               </a>
               <a className="smlink" href="https://twitter.com/ashgenie">
-                <img src={twitter} alt="Twitter" />
+                <img className="smimg" src={twitter} alt="Twitter" />
               </a>
             </div>
           </Col>

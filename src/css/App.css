@@ -3,7 +3,7 @@
 }
 
 .header {
-  background-color: rgba(179, 243, 179, 0.5);
+  background-color: rgb(183, 233, 183);
   color: black;
   width: 100vw;
   height: 150px;
@@ -16,10 +16,6 @@
   text-align: center;
   font-family: 'Lexend Deca', sans-serif;
 }
-
-/* .link {
-  font-size: 20px;
-} */
 
 .link:hover {
   text-shadow: 1px 1px 0px;
@@ -129,6 +125,8 @@
 
 .footer {
   border: 1px black;
+  display: flex;
+  justify-content: space-evenly;
   background-color: white;
   color: black;
   width: 100vw;
@@ -149,10 +147,6 @@
   text-decoration: none;
 }
 
-.smlink {
-  /* padding: 5px; */
-}
-
 .picture {
   padding: 20px;
   float: left;
@@ -163,4 +157,19 @@
 .aboutbody {
   font-size: 18px;
   padding: 20px;
+}
+.smlinks {
+  padding-bottom: 5px;
+}
+
+.smlink {
+  height: 100px;
+  width: auto;
+  padding: 5px;
+}
+
+@media (max-width: 400px) {
+  .smlink {
+    padding: 0px;
+  }
 }
