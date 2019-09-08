@@ -44,6 +44,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: 1.6;
 }
 
 .worksheader {
@@ -80,32 +81,20 @@
 
 .aboutheadertext {
   font-family: 'Liu Jian Mao Cao', cursive;
-  color: black;
+  color: white;
   font-size: 60px;
-  border: 7px solid white;
-  border-radius: 25px;
-  border-top: 0px;
-  background-color: white;
 }
 
 .worksheadertext {
   font-family: 'Liu Jian Mao Cao', cursive;
-  color: black;
+  color: white;
   font-size: 60px;
-  border: 7px solid white;
-  border-radius: 25px;
-  border-top: 0px;
-  background-color: white;
 }
 
 .contactheadertext {
   font-family: 'Liu Jian Mao Cao', cursive;
-  color: black;
+  color: white;
   font-size: 60px;
-  border: 7px solid white;
-  border-radius: 25px;
-  border-top: 0px;
-  background-color: white;
 }
 
 .contactinfo {
